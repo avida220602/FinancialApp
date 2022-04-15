@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinancialApp">
         <activity
-            android:name=".setting.SettingActivity"
+            android:name="com.praktikum.financialapp.ui.setting.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".profile.ProfileActivity"
+            android:name="com.praktikum.financialapp.ui.profile.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".home.HomeActivity"
+            android:name="com.praktikum.financialapp.ui.home.HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

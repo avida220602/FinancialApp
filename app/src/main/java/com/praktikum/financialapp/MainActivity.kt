@@ -1,13 +1,12 @@
 package com.praktikum.financialapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import com.praktikum.financialapp.home.HomeFragment
-import com.praktikum.financialapp.profile.ProfileFragment
-import com.praktikum.financialapp.setting.SettingFragment
+import com.praktikum.financialapp.ui.home.HomeFragment
+import com.praktikum.financialapp.ui.profile.ProfileFragment
+import com.praktikum.financialapp.ui.setting.SettingFragment
 
 class MainActivity : AppCompatActivity() {
 
